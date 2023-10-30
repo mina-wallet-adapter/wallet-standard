@@ -5,6 +5,9 @@
   "author": "t4top",
   "license": "Apache-2.0",
   "type": "module",
+  "scripts": {
+    "format": "prettier --write '{*,**/*}.{ts,tsx,js,jsx,json}'"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aztemi/mina-wallet-standard.git"
@@ -17,5 +20,8 @@
     "mina",
     "mina protocol",
     "wallet standard"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
 }
