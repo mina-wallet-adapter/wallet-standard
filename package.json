@@ -1,0 +1,21 @@
+{
+  "name": "mina-wallet-standard",
+  "version": "0.1.0",
+  "description": "Mina Protocol specific extensions to the Wallet Standard",
+  "author": "t4top",
+  "license": "Apache-2.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aztemi/mina-wallet-standard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aztemi/mina-wallet-standard/issues"
+  },
+  "homepage": "https://github.com/aztemi/mina-wallet-standard#readme",
+  "keywords": [
+    "mina",
+    "mina protocol",
+    "wallet standard"
+  ]
+}
