@@ -32,12 +32,11 @@
     "wallet standard"
   ],
   "devDependencies": {
+    "@wallet-standard/base": "^1.0.1",
+    "mina-signer": "^2.1.1",
     "prettier": "^3.0.3",
     "shx": "^0.3.4",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "@wallet-standard/base": "^1.0.1"
   }
 }
