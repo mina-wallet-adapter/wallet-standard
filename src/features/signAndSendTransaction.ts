@@ -1,5 +1,6 @@
 import type { IdentifierString } from "@wallet-standard/base";
 import type { MinaSignTransactionInput } from "./signTransaction.js";
+import type { MinaSendTransactionOutput } from "./sendTransaction.js";
 
 /** Name of the feature. */
 export const MinaSignAndSendTransaction = "mina:signAndSendTransaction";
@@ -35,7 +36,4 @@ export interface MinaSignAndSendTransactionInput extends MinaSignTransactionInpu
 }
 
 /** Output of signing and sending a transaction. */
-export interface MinaSignAndSendTransactionOutput {
-  /** Transaction signature, as string on success. */
-  readonly signature: string | undefined;
-}
+export interface MinaSignAndSendTransactionOutput extends MinaSendTransactionOutput {}

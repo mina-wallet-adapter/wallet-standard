@@ -20,6 +20,7 @@ The Wallet Standard Extensions for Mina Protocol are defined as follows:
 
 - `mina:signMessage`
 - `mina:signTransaction`
+- `mina:sendTransaction`
 - `mina:signAndSendTransaction`
 
 ## How to Build
