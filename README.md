@@ -25,9 +25,9 @@ The Wallet Standard Extensions for Mina Protocol are defined as follows:
 
 ## How to Build
 
-0. Pre-requisites
+0. Dependencies
 
-- Node 16+
+- Node 16 or newer
 - NPM
 
 1. Clone this git repository and change to the project directory
@@ -43,7 +43,7 @@ cd mina-wallet-standard
 npm install
 ```
 
-3. Run below command to build all workspace packages.
+3. Run below command to build.
 
 ```shell
 npm build
