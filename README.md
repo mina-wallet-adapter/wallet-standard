@@ -33,8 +33,8 @@ The Wallet Standard Extensions for Mina Protocol are defined as follows:
 1. Clone this git repository and change to the project directory
 
 ```shell
-git clone https://github.com/aztemi/mina-wallet-standard.git
-cd mina-wallet-standard
+git clone https://github.com/mina-wallet-adapter/wallet-standard.git
+cd wallet-standard
 ```
 
 2. Install project dependencies

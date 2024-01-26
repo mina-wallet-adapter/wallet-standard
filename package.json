@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aztemi/mina-wallet-standard.git"
+    "url": "git+https://github.com/mina-wallet-adapter/wallet-standard.git"
   },
   "bugs": {
-    "url": "https://github.com/aztemi/mina-wallet-standard/issues"
+    "url": "https://github.com/mina-wallet-adapter/wallet-standard/issues"
   },
-  "homepage": "https://github.com/aztemi/mina-wallet-standard#readme",
+  "homepage": "https://github.com/mina-wallet-adapter/wallet-standard#readme",
   "keywords": [
     "mina",
     "mina protocol",
