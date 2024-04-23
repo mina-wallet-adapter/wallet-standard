@@ -23,9 +23,7 @@ export type MinaSignMessageFeature = {
 export type MinaSignMessageVersion = "1.0.0";
 
 /** Sign a message using the account secret key */
-export type MinaSignMessageMethod = (
-  ...inputs: readonly MinaSignMessageInput[]
-) => Promise<readonly MinaSignMessageOutput[]>;
+export type MinaSignMessageMethod = (input: MinaSignMessageInput) => Promise<MinaSignMessageOutput>;
 
 /** Input for signing a message. */
 export interface MinaSignMessageInput {

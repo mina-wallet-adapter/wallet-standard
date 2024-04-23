@@ -24,9 +24,7 @@ export type MinaSendTransactionFeature = {
 export type MinaSendTransactionVersion = "1.0.0";
 
 /** Sign and send a transaction method */
-export type MinaSendTransactionMethod = (
-  ...inputs: readonly MinaSendTransactionInput[]
-) => Promise<readonly MinaSendTransactionOutput[]>;
+export type MinaSendTransactionMethod = (input: MinaSendTransactionInput) => Promise<MinaSendTransactionOutput>;
 
 /** Input for sending a transaction. */
 export interface MinaSendTransactionInput extends MinaSignTransactionOutput {
