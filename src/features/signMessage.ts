@@ -1,5 +1,5 @@
 import type { WalletAccount } from "@wallet-standard/base";
-import type { Signed } from "mina-signer/dist/node/mina-signer/src/TSTypes";
+import type { Signed } from "../types";
 
 /** Name of the feature. */
 export const MinaSignMessage = "mina:signMessage";
